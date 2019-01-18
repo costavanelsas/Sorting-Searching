@@ -23,9 +23,8 @@ public class BackwardsSearch {
 
         this.Radix = 256;
         this.pat = needle;
-
-        // position of rightmost occurrence of c in the pattern
         right = new int[Radix];
+
         for (int c = 0; c < Radix; c++)
             right[c] = -1;
         for (int j = needle.length() - 1; j >= 0; j--)
@@ -37,7 +36,7 @@ public class BackwardsSearch {
         this.comparisons = 0;
 
         for (int i = H - N; i > 0; i -= skip)
-        { // Does the pattern match the text at position i ?
+        {
             skip = 0;
 
             for (int j = 0; j < N - 1; j++){
@@ -50,7 +49,7 @@ public class BackwardsSearch {
                 }
             }
             if (skip == 0) return i; // found.
-            System.out.println(this.comparisons);
+            System.out.println("Amount of comparisons: "+ this.comparisons);
         }
         return -1; // not found.
     }

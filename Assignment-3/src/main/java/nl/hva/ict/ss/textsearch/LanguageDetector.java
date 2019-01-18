@@ -9,7 +9,6 @@ import java.util.regex.Pattern;
 
 /**
  * @author Costa van Elsas
- * a source of english letter frequenqy https://en.wikipedia.org/wiki/Letter_frequency
  */
 public class LanguageDetector {
     private String content;
@@ -49,7 +48,7 @@ public class LanguageDetector {
     }
 
     /**
-     * set the percentage of all the vowels found on wikipedia
+     * set the percentage of all the vowels found on https://en.wikipedia.org/wiki/Letter_frequency
      */
     private void setPercentageOfVowel() {
         englishDistributionMap.clear();
@@ -70,14 +69,11 @@ public class LanguageDetector {
         makeVowelDistributionMap();
 
         // range in what the percentage can deviate.
-        double rangeOfVariety = 2.5;
+        double rangeOfVariety = 3.0;
 
         isEnglishText = detectEnglishText(rangeOfVariety);
     }
 
-    /**
-     * TODO:!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
-     */
     private void createCharacterMap() {
         //regular expression to get all the letters of the alphabet
         String pattern = "([A-Z]|[a-z])";
