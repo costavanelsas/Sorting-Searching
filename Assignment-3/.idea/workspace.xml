@@ -1,7 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="2d6d975b-fd3b-417f-84ff-c43c281ac2c5" name="Default Changelist" comment="" />
+    <list default="true" id="2d6d975b-fd3b-417f-84ff-c43c281ac2c5" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/nl/hva/ict/ss/textsearch/BackwardsSearch.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/nl/hva/ict/ss/textsearch/BackwardsSearch.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/nl/hva/ict/ss/textsearch/LanguageDetector.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/nl/hva/ict/ss/textsearch/LanguageDetector.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/nl/hva/ict/ss/textsearch/BackwardsSearchTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/nl/hva/ict/ss/textsearch/BackwardsSearchTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/nl/hva/ict/ss/textsearch/LanguageDetectorTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/nl/hva/ict/ss/textsearch/LanguageDetectorTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/nl/hva/ict/ss/textsearch/BackwardsSearch.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/nl/hva/ict/ss/textsearch/BackwardsSearch.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/nl/hva/ict/ss/textsearch/BackwardsSearchTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/nl/hva/ict/ss/textsearch/BackwardsSearchTest.class" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -11,14 +19,14 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/nl/hva/ict/ss/textsearch/BackwardsSearch.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="416">
-              <caret line="51" column="26" lean-forward="true" selection-start-line="51" selection-start-column="26" selection-end-line="51" selection-end-column="26" />
+            <state relative-caret-position="163">
+              <caret line="47" column="72" selection-start-line="47" selection-start-column="72" selection-end-line="47" selection-end-column="72" />
               <folding>
-                <element signature="e#2130#2131#0" expanded="true" />
-                <element signature="e#2161#2162#0" expanded="true" />
+                <element signature="e#2079#2080#0" expanded="true" />
+                <element signature="e#2106#2107#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -27,8 +35,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/nl/hva/ict/ss/textsearch/BackwardsSearchTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="561">
-              <caret line="36" column="7" lean-forward="true" selection-start-line="36" selection-start-column="7" selection-end-line="36" selection-end-column="7" />
+            <state relative-caret-position="153">
+              <caret line="12" column="43" selection-start-line="12" selection-start-column="43" selection-end-line="12" selection-end-column="43" />
               <folding>
                 <element signature="e#246#247#0" expanded="true" />
                 <element signature="e#306#307#0" expanded="true" />
@@ -37,11 +45,16 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/nl/hva/ict/ss/textsearch/LanguageDetector.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+            <state relative-caret-position="136">
+              <caret line="71" column="52" lean-forward="true" selection-start-line="71" selection-start-column="52" selection-end-line="71" selection-end-column="52" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#1226#1227#0" expanded="true" />
+                <element signature="e#1262#1263#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -49,34 +62,49 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/nl/hva/ict/ss/textsearch/LanguageDetectorTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+            <state relative-caret-position="272">
+              <caret line="16" column="80" selection-start-line="16" selection-start-column="80" selection-end-line="16" selection-end-column="80" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
     </leaf>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/src/test/java/nl/hva/ict/ss/textsearch/BackwardsSearchTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/nl/hva/ict/ss/textsearch/BackwardsSearch.java" />
+        <option value="$PROJECT_DIR$/src/test/java/nl/hva/ict/ss/textsearch/LanguageDetectorTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/nl/hva/ict/ss/textsearch/LanguageDetector.java" />
       </list>
     </option>
   </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="239" />
-    <option name="y" value="-8" />
+    <option name="x" value="-1825" />
+    <option name="y" value="-138" />
     <option name="width" value="1400" />
     <option name="height" value="1000" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -136,12 +164,13 @@
         </subPane>
       </pane>
       <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="android.sdk.path" value="$USER_HOME$/AppData/Local/Android/Sdk" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1547727157147" />
-    <property name="last_opened_file_path" value="$USER_HOME$/Desktop/Datastrucures 3 met Jeroen/Assignment-3-student 2/Assignment-3-student 2/pom.xml" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1547833476689" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/pom.xml" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -155,7 +184,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.BackwardsSearchTest.getComparissons">
+  <component name="RunManager" selected="JUnit.LanguageDetectorTest">
     <configuration name="BackwardsSearchTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="assignment-3" />
       <extension name="coverage">
@@ -186,22 +215,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="BackwardsSearchTest.getComparisons" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="assignment-3" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="nl.hva.ict.ss.textsearch.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="nl.hva.ict.ss.textsearch" />
-      <option name="MAIN_CLASS_NAME" value="nl.hva.ict.ss.textsearch.BackwardsSearchTest" />
-      <option name="METHOD_NAME" value="getComparisons" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="BackwardsSearchTest.getComparissons" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="assignment-3" />
       <extension name="coverage">
@@ -218,7 +231,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="BackwardsSearchTest.search" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="LanguageDetectorTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="assignment-3" />
       <extension name="coverage">
         <pattern>
@@ -227,8 +240,22 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="nl.hva.ict.ss.textsearch" />
-      <option name="MAIN_CLASS_NAME" value="nl.hva.ict.ss.textsearch.BackwardsSearchTest" />
-      <option name="METHOD_NAME" value="search" />
+      <option name="MAIN_CLASS_NAME" value="nl.hva.ict.ss.textsearch.LanguageDetectorTest" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LanguageDetectorTest.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="assignment-3" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="nl.hva.ict.ss.textsearch.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="nl.hva.ict.ss.textsearch" />
+      <option name="MAIN_CLASS_NAME" value="nl.hva.ict.ss.textsearch.LanguageDetectorTest" />
+      <option name="METHOD_NAME" value="test" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -236,11 +263,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.BackwardsSearchTest.getComparissons" />
+        <item itemvalue="JUnit.LanguageDetectorTest" />
+        <item itemvalue="JUnit.LanguageDetectorTest.test" />
         <item itemvalue="JUnit.BackwardsSearchTest" />
+        <item itemvalue="JUnit.BackwardsSearchTest.getComparissons" />
         <item itemvalue="JUnit.BackwardsSearchTest.findSingleOccurrence" />
-        <item itemvalue="JUnit.BackwardsSearchTest.getComparisons" />
-        <item itemvalue="JUnit.BackwardsSearchTest.search" />
       </list>
     </recent_temporary>
   </component>
@@ -258,42 +285,42 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="BackwardsSearchTest - 2019.01.16 at 17h 00m 47s.xml">
+    <history-entry file="BackwardsSearchTest - 2019.01.18 at 13h 50m 58s.xml">
       <configuration name="BackwardsSearchTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="BackwardsSearchTest - 2019.01.16 at 17h 01m 35s.xml">
+    <history-entry file="BackwardsSearchTest - 2019.01.18 at 13h 54m 06s.xml">
       <configuration name="BackwardsSearchTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="BackwardsSearchTest - 2019.01.16 at 17h 01m 56s.xml">
+    <history-entry file="BackwardsSearchTest - 2019.01.18 at 14h 06m 41s.xml">
       <configuration name="BackwardsSearchTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="BackwardsSearchTest - 2019.01.16 at 17h 03m 33s.xml">
+    <history-entry file="BackwardsSearchTest - 2019.01.18 at 14h 09m 43s.xml">
       <configuration name="BackwardsSearchTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="BackwardsSearchTest_getComparissons - 2019.01.16 at 17h 03m 48s.xml">
+    <history-entry file="BackwardsSearchTest_getComparissons - 2019.01.18 at 14h 12m 17s.xml">
       <configuration name="BackwardsSearchTest.getComparissons" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="BackwardsSearchTest - 2019.01.16 at 17h 04m 08s.xml">
+    <history-entry file="BackwardsSearchTest - 2019.01.18 at 14h 12m 53s.xml">
       <configuration name="BackwardsSearchTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="BackwardsSearchTest_getComparissons - 2019.01.16 at 17h 04m 21s.xml">
-      <configuration name="BackwardsSearchTest.getComparissons" configurationId="JUnit" />
+    <history-entry file="BackwardsSearchTest - 2019.01.18 at 14h 28m 06s.xml">
+      <configuration name="BackwardsSearchTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="BackwardsSearchTest_getComparissons - 2019.01.16 at 17h 04m 58s.xml">
-      <configuration name="BackwardsSearchTest.getComparissons" configurationId="JUnit" />
+    <history-entry file="LanguageDetectorTest_test - 2019.01.18 at 14h 52m 20s.xml">
+      <configuration name="LanguageDetectorTest.test" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="BackwardsSearchTest_getComparissons - 2019.01.16 at 17h 05m 06s.xml">
-      <configuration name="BackwardsSearchTest.getComparissons" configurationId="JUnit" />
+    <history-entry file="LanguageDetectorTest - 2019.01.18 at 14h 54m 11s.xml">
+      <configuration name="LanguageDetectorTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="BackwardsSearchTest_getComparissons - 2019.01.16 at 17h 05m 39s.xml">
-      <configuration name="BackwardsSearchTest.getComparissons" configurationId="JUnit" />
+    <history-entry file="LanguageDetectorTest - 2019.01.18 at 15h 59m 49s.xml">
+      <configuration name="LanguageDetectorTest" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <frame x="-1928" y="-124" width="1936" height="1176" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.26066098" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.20415778" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -301,8 +328,8 @@
       <window_info id="Capture Tool" order="5" />
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32936078" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32936078" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.29146692" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.3997833" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -322,11 +349,7 @@
     </layout>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://E:/FileHistory/costa/LAPTOP-GC9CGIQC/Data/$OF/7040/7041 (2018_05_16 19_22_04 UTC).java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1233" />
-      </provider>
-    </entry>
+    <entry file="file://E:/FileHistory/costa/LAPTOP-GC9CGIQC/Data/$OF/7040/7041 (2018_05_16 19_22_04 UTC).java" />
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -364,17 +387,38 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$USER_HOME$/Downloads/LanguageDetector.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="503">
+          <caret line="142" column="5" lean-forward="true" selection-start-line="10" selection-start-column="3" selection-end-line="142" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/nl/hva/ict/ss/textsearch/BackwardsSearch.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="163">
+          <caret line="47" column="72" selection-start-line="47" selection-start-column="72" selection-end-line="47" selection-end-column="72" />
+          <folding>
+            <element signature="e#2079#2080#0" expanded="true" />
+            <element signature="e#2106#2107#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/nl/hva/ict/ss/textsearch/LanguageDetectorTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+        <state relative-caret-position="272">
+          <caret line="16" column="80" selection-start-line="16" selection-start-column="80" selection-end-line="16" selection-end-column="80" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/nl/hva/ict/ss/textsearch/BackwardsSearchTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="561">
-          <caret line="36" column="7" lean-forward="true" selection-start-line="36" selection-start-column="7" selection-end-line="36" selection-end-column="7" />
+        <state relative-caret-position="153">
+          <caret line="12" column="43" selection-start-line="12" selection-start-column="43" selection-end-line="12" selection-end-column="43" />
           <folding>
             <element signature="e#246#247#0" expanded="true" />
             <element signature="e#306#307#0" expanded="true" />
@@ -384,18 +428,12 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/nl/hva/ict/ss/textsearch/LanguageDetector.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/nl/hva/ict/ss/textsearch/BackwardsSearch.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="416">
-          <caret line="51" column="26" lean-forward="true" selection-start-line="51" selection-start-column="26" selection-end-line="51" selection-end-column="26" />
+        <state relative-caret-position="136">
+          <caret line="71" column="52" lean-forward="true" selection-start-line="71" selection-start-column="52" selection-end-line="71" selection-end-column="52" />
           <folding>
-            <element signature="e#2130#2131#0" expanded="true" />
-            <element signature="e#2161#2162#0" expanded="true" />
+            <element signature="imports" expanded="true" />
+            <element signature="e#1226#1227#0" expanded="true" />
+            <element signature="e#1262#1263#0" expanded="true" />
           </folding>
         </state>
       </provider>

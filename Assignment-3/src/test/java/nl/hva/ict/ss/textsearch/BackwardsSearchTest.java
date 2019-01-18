@@ -10,7 +10,7 @@ public class BackwardsSearchTest {
 
     @Before
     public void setup() {
-        searchEngine = new BackwardsSearch("needle");
+        searchEngine = new BackwardsSearch();
     }
 
     @Test

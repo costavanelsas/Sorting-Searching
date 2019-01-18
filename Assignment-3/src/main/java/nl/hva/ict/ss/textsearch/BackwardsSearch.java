@@ -2,27 +2,14 @@ package nl.hva.ict.ss.textsearch;
 
 /**
  * @author Costa van Elsas
+ * I was inspired by the sedgewick book to write this code
  */
 public class BackwardsSearch {
 
-
     private int[] right;
     private String pat;
-    private int compares = 0;
-
-    /**
-     * Constructor
-     */
-    public BackwardsSearch(String pat) {
-        this.pat = pat;
-        int M = pat.length();
-        int R = 256;
-        right = new int[R];
-        for (int c = 0; c < R; c++)
-            right[c] = -1; // -1 for chars not in pattern
-        for (int j = 0; j < M; j++) // rightmost position for
-            right[pat.charAt(j)] = j;
-    }
+    private int comparisons;
+    private int Radix;
 
     /**
      * Returns index of the right most location where <code>needle</code> occurs within <code>haystack</code>. Searching
@@ -34,30 +21,37 @@ public class BackwardsSearch {
      */
     int findLocation(String needle, String haystack) {
 
-        int N = haystack.length();
-        int M = needle.length();
-        int skip;
-        int amountOfCompares = 0;
+        this.Radix = 256;
+        this.pat = needle;
 
-        for (int i = 0; i <= N-M; i += skip)
+        // position of rightmost occurrence of c in the pattern
+        right = new int[Radix];
+        for (int c = 0; c < Radix; c++)
+            right[c] = -1;
+        for (int j = needle.length() - 1; j >= 0; j--)
+            right[needle.charAt(j)] = j;
+
+        int H = haystack.length();
+        int N = needle.length();
+        int skip;
+        this.comparisons = 0;
+
+        for (int i = H - N; i > 0; i -= skip)
         { // Does the pattern match the text at position i ?
-            amountOfCompares++;
             skip = 0;
-            for (int j = M-1; j >= 0; j--)
+
+            for (int j = 0; j < N - 1; j++){
+                this.comparisons++;
+
                 if (needle.charAt(j) != haystack.charAt(i+j))
                 {
-
-                    skip = j - right[haystack.charAt(i+j)];
-                    if (skip < 1) skip = 1;
+                    skip = Math.max(1, j - right[haystack.charAt(i+j)]);
                     break;
                 }
-
-            System.out.println("Amount of compares " + amountOfCompares);
-            amountOfCompares += compares;
+            }
             if (skip == 0) return i; // found.
+            System.out.println(this.comparisons);
         }
-
-
         return -1; // not found.
     }
 
@@ -66,7 +60,6 @@ public class BackwardsSearch {
      * @return the number of character comparisons during the last search.
      */
     int getComparisonsForLastSearch(int compares) {
-        return compares;
+        return this.comparisons;
     }
-
 }
