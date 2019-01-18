@@ -5,6 +5,9 @@ import org.junit.Test;
 
 import static org.junit.Assert.assertEquals;
 
+/**
+ * @author Costa van Elsas
+ */
 public class BackwardsSearchTest {
     protected BackwardsSearch searchEngine;
 

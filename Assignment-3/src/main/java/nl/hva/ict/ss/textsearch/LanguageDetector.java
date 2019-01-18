@@ -83,7 +83,8 @@ public class LanguageDetector {
         while (matcher.find())
         {
             String charFound = matcher.group(0).toLowerCase();
-            if (charMap.containsKey(charFound)) {
+            if (charMap.containsKey(charFound))
+            {
                 int amount = charMap.get(charFound);
                 charMap.replace(charFound, ++amount);
             } else {
@@ -93,20 +94,21 @@ public class LanguageDetector {
     }
 
     /**
-     * Filling the vowelDestributionMap (can only be accomplished is charMap is full)
-     * Filling the englishDistributionMap.
+     * Filling the vowelDestributionMap and the englishDistributionMap.
      * @param range
      * @return boolean isEnglishText
      */
     private boolean detectEnglishText(double range) {
-        for (Map.Entry<String, Double> entry : vowelDistributionMap.entrySet()) {
+        for (Map.Entry<String, Double> entry : vowelDistributionMap.entrySet())
+        {
             String key = entry.getKey();
 
             double percentage = entry.getValue();
             double statisticalPercentage = englishDistributionMap.get(key);
 
             // when one vowel doesn't correspond with the range
-            if (!(percentage - range < statisticalPercentage && percentage + range > statisticalPercentage)) {
+            if (!(percentage - range < statisticalPercentage && percentage + range > statisticalPercentage))
+            {
                 return false;
             }
         }
@@ -119,7 +121,8 @@ public class LanguageDetector {
      * @return percentage
      */
     private double getPercentage(String string) {
-        if (string == null || string.isEmpty() || string.length() > 1) {
+        if (string == null || string.isEmpty() || string.length() > 1)
+        {
             return -1;
         }
 
@@ -136,15 +139,19 @@ public class LanguageDetector {
         String[] vowels = {"a", "e", "o", "u", "i"};
         amountOfChars = 0;
 
-        for (Map.Entry<String, Integer> entry : charMap.entrySet()) {
+        for (Map.Entry<String, Integer> entry : charMap.entrySet())
+        {
             amountOfChars += entry.getValue();
         }
 
-        for (Map.Entry<String, Integer> entry : charMap.entrySet()) {
+        for (Map.Entry<String, Integer> entry : charMap.entrySet())
+        {
             String key = entry.getKey();
 
-            for (int i = 0; i < vowels.length; i++) {
-                if (vowels[i].equalsIgnoreCase(key)) {
+            for (int i = 0; i < vowels.length; i++)
+            {
+                if (vowels[i].equalsIgnoreCase(key))
+                {
                     vowelDistributionMap.put(key, getPercentage(key));
                 }
             }

@@ -7,6 +7,9 @@ import org.junit.Assert.*;
 
 import static junit.framework.TestCase.*;
 
+/**
+ * @author Costa van Elsas
+ */
 public class LanguageDetectorTest {
     private LanguageDetector detector;
     private LanguageDetector detectorDutch;
